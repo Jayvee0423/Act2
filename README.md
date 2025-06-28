@@ -1,46 +1,48 @@
-﻿# AppDevActivity2 (ASP.NET Core MVC)
+# Act2 — ASP.NET Core MVC Application
 
-This is a basic ASP.NET Core MVC application with Bootstrap styling and Razor views. It includes pages for an expense tracking application.
+A simple expense tracking web app built with ASP.NET Core MVC. It uses Bootstrap for styling and Razor views for dynamic content rendering.
 
-## 📦 Features
+## Features
 
-- ASP.NET Core MVC structure
-- Bootstrap 5 integration
-- Razor view engine
-- Navigation bar with multiple pages
+- Clean ASP.NET Core MVC architecture  
+- Integrated Bootstrap 5 for responsive UI  
+- Razor View Engine  
+- Basic expense tracking pages with navigation bar  
 
-## 🛠️ Prerequisites
+##  Requirements
 
-- [.NET SDK 8.0+](https://dotnet.microsoft.com/en-us/download) installed
-- [Visual Studio 2022+](https://visualstudio.microsoft.com/) with the ASP.NET and web development workload
+- [.NET SDK 8.0 or later](https://dotnet.microsoft.com/en-us/download)  
+- [Visual Studio 2022 or later](https://visualstudio.microsoft.com/) with ASP.NET and Web Development workload  
 - Git (optional, for cloning)
 
-## 🚀 Installation
+## Getting Started
 
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/yourusername/AppDevActivity2.git
-   cd AppDevActivity2
-   ```
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/AppDevActivity2.git
+cd AppDevActivity2
+```
 
-2. **Open the project in Visual Studio**  
-   Open `AppDevActivity2.sln`.
+2. Open the solution in Visual Studio:
+Open the file AppDevActivity2.sln.
 
-3. **Restore dependencies**  
-   Visual Studio usually restores packages automatically, but you can also do:
-   ```bash
-   dotnet restore
-   ```
+3. Restore NuGet packages:
+Visual Studio should handle this automatically, but you can also run:
+```bash
+dotnet restore
+```
 
-4. **Run the app**  
-   Press `F5` or run this in the terminal:
-   ```bash
-   dotnet run
-   ```
+4. Run the application:
+Press F5 in Visual Studio, or run:
+```bash
+dotnet run
+```
 
-5. **Visit in your browser**  
-   Go to [https://localhost:5001](https://localhost:5001) or [http://localhost:5000](http://localhost:5000)
+5. Access the app in your browser:
+- https://localhost:5001  
+- or http://localhost:5000
 
-## 📄 License
+## License
 
-This project is for educational purposes only.
+This project is intended for educational use only.
+
